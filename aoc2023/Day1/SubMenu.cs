@@ -10,8 +10,8 @@ public static class SubMenu {
             
             Console.WriteLine("Advent of Code - Day 1 - Trebuchet?!");
             Console.WriteLine("0. Print the Day1 prompt");
-            Console.WriteLine("1. Run Part 1: digits only"); // 53194
-            Console.WriteLine("2. Run Part 2: including numbers as strings"); // 54251
+            Console.WriteLine("1. Run Part 1: digits only");
+            Console.WriteLine("2. Run Part 2: including numbers as strings");
             Console.WriteLine("x. Return to main menu");
             
             Console.Write(">");
@@ -24,11 +24,11 @@ public static class SubMenu {
                     Common.PressToContinue();
                     break;
                 case "1":
-                    Day1Program.RunPart1(); // 53194
+                    Day1Program.RunPart1();
                     Common.PressToContinue();
                     break;
                 case "2":
-                    Day1Program.RunPart2(); // 54270
+                    Day1Program.RunPart2();
                     Common.PressToContinue();
                     break;
                 case "x":
