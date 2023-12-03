@@ -2,7 +2,7 @@
 
 namespace AOC2023.Day1;
 
-public static class Day1Program {
+public static partial class Day1Program {
     private static Dictionary<string, int> wordToDigit = new() {
         { "one", 1 },
         { "two", 2 },
@@ -17,13 +17,13 @@ public static class Day1Program {
     };
     
     [GeneratedRegex("\\d")]
-    private static extern Regex ReggieDiggie();
+    private static partial Regex ReggieDiggie();
     
     [GeneratedRegex("\\d|one|two|three|four|five|six|seven|eight|nine|zero")]
-    private static extern Regex Reggie();
+    private static partial Regex Reggie();
     
     [GeneratedRegex("\\d|eno|owt|eerht|ruof|evif|xis|neves|thgie|enin|orez")]
-    private static extern Regex ReggieReverse();
+    private static partial Regex ReggieReverse();
 
     public static void RunPart1() {
         int calibrationSum = 0;
