@@ -17,7 +17,7 @@ public class Common {
                                            """;
 
     public static void PressToContinue() {
-        Console.Write("\n>>Press any key to continue");
+        Console.Write("\nPress any key to continue");
         Console.ReadKey();
     }
 }
