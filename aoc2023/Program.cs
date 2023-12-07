@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using AOC2023.Day1;
 using AOC2023.Utility;
 
 namespace AOC2023;
@@ -13,8 +12,9 @@ public class Program {
             Console.WriteLine(Common.Aoc2023AsciiArt);
             Console.WriteLine("==============================");
             Console.WriteLine("Choose an option");
-            Console.WriteLine("1. Run Day 1 - Trebuchet?!");
-            Console.WriteLine("x. Exit Program");
+            Console.WriteLine("1. Day 1 - Trebuchet?!");
+            Console.WriteLine("2. Day 2 - Cube Conundrum");
+            Console.WriteLine("x. Exit");
             
             Console.Write(">");
             string? choice = Console.ReadLine();
@@ -25,7 +25,7 @@ public class Program {
                     Day1.SubMenu.Run();
                     break;
                 case "2":
-                    // tbd
+                    Day2.SubMenu.Run();
                     break;
                 case "x":
                     Console.WriteLine("Bye!");
