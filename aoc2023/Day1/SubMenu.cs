@@ -8,8 +8,10 @@ public static class SubMenu {
         while (true) {
             Console.Clear();
             
+            Console.WriteLine("============================================================");
             Console.WriteLine("Advent of Code - Day 1 - Trebuchet?!");
-            Console.WriteLine("See problem prompts for each part in the Day2 directory");
+            Console.WriteLine("============================================================");
+            Console.WriteLine("See problem prompts for each part in the Day1 directory");
             Console.WriteLine("1. Run Part 1");
             Console.WriteLine("2. Run Part 2");
             Console.WriteLine("x. Return to main menu");
